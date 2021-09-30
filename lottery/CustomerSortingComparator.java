@@ -1,5 +1,14 @@
 //package assignment4.lottery;
 
+/* 
+ * 
+ * Name: CustomerSortingComparator
+ * Purpose: Sorts customers by ID
+ * Author: grivera64
+ * Date: 10/2/2021
+ * 
+ */
+
 import java.util.Comparator;
 
 public class CustomerSortingComparator implements Comparator<Customer>

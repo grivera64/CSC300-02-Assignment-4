@@ -1,5 +1,14 @@
 //package assignment4.contractor;
 
+/* 
+ * 
+ * Name: Contractor.java
+ * Purpose: Represents a Contractor
+ * Author: grivera64
+ * Date: 10/2/2021
+ * 
+ */
+
 public class Contractor
 {
 	

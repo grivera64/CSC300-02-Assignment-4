@@ -1,5 +1,14 @@
 //package assignment4.contractor;
 
+/* 
+ * 
+ * Name: ComparatorSortName.java
+ * Purpose: Sorts Contractors by Name
+ * Author: grivera64
+ * Date: 10/2/2021
+ * 
+ */
+
 import java.util.Comparator;
 
 public class ComparatorSortName implements Comparator<Contractor>

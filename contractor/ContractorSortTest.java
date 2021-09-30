@@ -1,5 +1,14 @@
 //package assignment4.contractor;
 
+/* 
+ * 
+ * Name: ContractorSortTest.java
+ * Purpose: Tests the Contractor Comparators
+ * Author: grivera64
+ * Date: 10/2/2021
+ * 
+ */
+
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;

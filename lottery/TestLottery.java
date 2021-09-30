@@ -1,5 +1,14 @@
 //package assignment4.lottery;
 
+/* 
+ * 
+ * Name: TestLottery.java
+ * Purpose: Tests the Store Lottery class
+ * Author: grivera64
+ * Date: 10/2/2021
+ * 
+ */
+
 import java.io.IOException;
 
 public class TestLottery
