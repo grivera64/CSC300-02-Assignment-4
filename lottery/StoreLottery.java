@@ -1,4 +1,4 @@
-package assignment4.lottery;
+//package assignment4.lottery;
 
 /* 
  * 
