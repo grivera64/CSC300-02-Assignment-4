@@ -12,10 +12,12 @@
 public class Contractor
 {
 	
+	/* Private Fields */
 	private String name = "";
 	private String location = "";
 	private int ownerID;
 	
+	/* Constructors */
 	public Contractor() {}
 	
 	public Contractor(String name, String location, int ownerID)
@@ -27,6 +29,7 @@ public class Contractor
 		
 	}
 	
+	/* Mutators and Accessors */
 	public void setName(String name)
 	{
 		
@@ -69,6 +72,7 @@ public class Contractor
 		
 	}
 	
+	/* Return the Contractor's Name, location and ID when printed */
 	@Override
 	public String toString()
 	{

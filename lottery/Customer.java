@@ -12,9 +12,11 @@
 public class Customer
 {
 	
+	/* Private fields */
 	private String name;
 	private int idNumber;
 	
+	/* Constructor */
 	public Customer(String name, int idNumber)
 	{
 	
@@ -23,6 +25,7 @@ public class Customer
 		
 	}
 	
+	/* Mutators and Accessors */
 	public void setName(String name)
 	{
 		
@@ -51,6 +54,7 @@ public class Customer
 		
 	}
 	
+	/* Verifies if two customers have the same name and ID */
 	@Override
 	public boolean equals(Object obj)
 	{
@@ -69,6 +73,7 @@ public class Customer
 		
 	}
 	
+	/* Returns the Name and ID of a customer */
 	@Override
 	public String toString()
 	{

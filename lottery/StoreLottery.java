@@ -22,12 +22,16 @@ import java.io.PrintWriter;
 public class StoreLottery
 {
 	
+	/* Global fields */
 	public static final Scanner keyboard = new Scanner(System.in);
 	
+	/* Private fields */
 	private List<Customer> customerList = new ArrayList<>();
 	
+	/* Constructors */
 	public StoreLottery() {}
 	
+	/* Mutators and Accessors */
 	public void setCustomerList(List<Customer> customerList)
 	{
 		
@@ -57,6 +61,7 @@ public class StoreLottery
 		
 	}
 	
+	/* Asks user to give a file with customer names */
 	public void addCustomers() throws IOException
 	{
 		
@@ -126,6 +131,7 @@ public class StoreLottery
 		
 	}
 	
+	/* Writes to a file a list of entered customers (without repeats) */
 	public void printUnduplicatedList() throws IOException
 	{
 		
@@ -162,6 +168,7 @@ public class StoreLottery
 		
 	}
 	
+	/* Prints out the Winning customer */
 	public void pickWinner()
 	{
 		

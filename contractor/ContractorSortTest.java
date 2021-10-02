@@ -66,6 +66,7 @@ public class ContractorSortTest
 		String name, location;
 		int id;
 		
+		/* Read in a file for contractors and put them in an ArrayList */
 		while (inFile.hasNext())
 		{
 			
@@ -79,6 +80,7 @@ public class ContractorSortTest
 		
 		inFile.close();
 		
+		/* Sort the contractors in many different ways using Comparators */
 		System.out.printf("List Sorted By Contractor Name\n");
 		Collections.sort(alContractor, new ComparatorSortName());
 		

@@ -20,6 +20,7 @@ public class ComparatorMultiSort implements Comparator<Contractor>
 		
 		int result;
 		
+		/* Compare names */
 		result = o1.getName().compareTo(o2.getName());
 		
 		if (result != 0)
@@ -29,6 +30,7 @@ public class ComparatorMultiSort implements Comparator<Contractor>
 			
 		}
 		
+		/* If same names, compare location */
 		result = o1.getLocation().compareTo(o2.getLocation());
 		
 		if (result != 0)
@@ -38,6 +40,7 @@ public class ComparatorMultiSort implements Comparator<Contractor>
 			
 		}
 		
+		/* If same location compare Owner ID */
 		return Integer.compare(o1.getOwnerID(), o2.getOwnerID());
 		
 	}
